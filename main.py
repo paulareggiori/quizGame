@@ -16,6 +16,7 @@ validation = Validation()
 game_actions.welcome()
 
 # Ask if they want to start playing
+
 if game_actions.start_quiz():
 	counter = questions.get_counter()
 	while counter < 6:
