@@ -12,7 +12,7 @@ class Actions:
 		print(self.WELCOME_TEXT)
 
 	def start_quiz(self):
-		answer = input("Do  quiz you want to start the quiz? ")
+		answer = input("Do you want to start the quiz? ")
 		if answer.lower() == "yes":
 			return True
 		elif answer.lower() == "y":
